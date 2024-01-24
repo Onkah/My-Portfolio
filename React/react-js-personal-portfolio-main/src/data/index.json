@@ -1,0 +1,77 @@
+{
+  "skills": [
+    {
+      "id": "1",
+      "src": "./img/product-chain-1.png",
+      "title": "Full-Stack Development",
+      "description": "Proficient in both Front-End and Back-End technologies. Experienced in creating seamless user interfaces and  server-side logic for web applications."
+    },
+    {
+      "id": "2",
+      "src": "./img/tag-1.png",
+      "title": "Database Management",
+      "description": "Skilled in designing and managing databases, ensuring efficient data storage and retrieval. Experienced in optimizing database performance and implementing data security measures."
+    },
+    {
+      "id": "3",
+      "src": "./img/feather-pen-2.png",
+      "title": "Graphic Design",
+      "description": "Creative and detail-oriented UI & UX designer with a focus on delivering visually appealing and user-friendly designs. Proficient in using design tools for wireframing and prototyping."
+    },
+    {
+      "id": "4",
+      "src": "./img/feather-pen-1.png",
+      "title": "Mobile App Development",
+      "description": "Specialized in developing mobile applications for Android platforms. Proficient in  cross-platform frameworks, ensuring optimal performance and user experience."
+    }
+  ],
+  "portfolio": [
+    {
+      "id": "1",
+      "src": "./img/humble-uni.png",
+      "title": "Humble-Uni Driving Academy",
+      "description": "Comprehensive web application designed to streamline the processes of a driving school.",
+      "link": "View In Github"
+    },
+    {
+      "id": "2",
+      "src": "./img/este-bakno.png",
+      "title": "Este-Bakno music website",
+      "description": "The website showcases a diverse collection of artists, albums, and genres.",
+      "link": "View In Github"
+    },
+    {
+      "id": "3",
+      "src": "./img/wits-overflow.png",
+      "title": "Wits-Overflow",
+      "description": "This is an app, intended for finding quick help with programming errors around the Wits community.",
+      "link": "View In Github"
+    }
+  ],
+  "testimonial": [
+    {
+      "id": "1",
+      "count": "5",
+      "src": "./img/avatar-image.png",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
+      "author_name": "Dianne Russel",
+      "author_designation": "Starbucks"
+    },
+    {
+      "id": "2",
+      "count": "5",
+      "src": "./img/avatar-image-1.png",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
+      "author_name": "Kristin Watson",
+      "author_designation": "Louis Vuitton"
+    },
+    {
+      "id": "3",
+      "count": "5",
+      "src": "./img/avatar-image-2.png",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
+      "author_name": "Kathryn Murphy",
+      "author_designation": "McDonald's"
+    }
+  ]
+}
