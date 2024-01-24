@@ -1,0 +1,567 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Courses We Offer</title>
+    <link rel="icon" href="logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital@0;1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Merriweather:400,900,900i" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,700|Open+Sans:400,700">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <script id='pixel-script-poptin' src='https://cdn.popt.in/pixel.js?id=effc50d5a3619' async='true'></script>
+    <!-- Add the Bootstrap 5 CSS link -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+    
+      .test1 {
+        color:#fff;
+        text-align: center;
+        text-transform: uppercase;
+        font-family: "Roboto", sans-serif;
+        font-weight: bold;
+        position: relative;
+        margin: 25px 0 50px;
+      }
+      .test1::after {
+        content: "";
+        width: 100px;
+        position: absolute;
+        margin: 0 auto;
+        height: 3px;
+        background:#eb7245;
+        left: 0;
+        right: 0;
+        bottom: -10px;
+      }
+      .carousel {
+        width: 650px;
+        margin: 0 auto;
+        padding-bottom: 50px;
+      }
+      .carousel .carousel-item {
+        color:#fff;
+        font-size: 14px;
+        text-align: center;
+        overflow: hidden;
+        min-height: 340px;
+      }
+      .carousel .carousel-item a {
+        color: #eb7245;
+      }
+      .carousel .img-box {
+        width: 145px;
+        height: 145px;
+        margin: 0 auto;
+        border-radius: 50%;
+      }
+      .carousel .img-box img {
+        width: 100%;
+        height: 100%;
+        display: block;
+        border-radius: 50%;
+      }
+      .carousel .testimonial {	
+        padding: 30px 0 10px;
+      }
+      .carousel .overview {	
+        text-align: center;
+        padding-bottom: 5px;
+      }
+      .carousel .overview b {
+        color:#fff;
+        font-size: 15px;
+        text-transform: uppercase;
+        display: block;	
+        padding-bottom: 5px;
+      }
+      .carousel .star-rating i {
+        font-size: 18px;
+        color: #ffdc12;
+      }
+      .carousel-control-prev, .carousel-control-next {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        background:#f44336;
+        text-shadow: none;
+        
+      }
+      .carousel-control-prev {
+        margin-right: 500px;
+        margin-top: 37px;
+      }
+      .carousel-control-next{
+        margin-top: 40px;
+        margin-right: 50px;
+      }
+      .carousel-control-prev i, .carousel-control-next i {
+        font-size: 20px;
+        margin-right: 2px;
+        padding: 10px;
+      }
+      .carousel-control-prev {
+        left: auto;
+        right: 40px;
+      }
+      .carousel-control-next i {
+        margin-right: -2px;
+      }
+      .carousel .carousel-indicators {
+        bottom: 15px;
+      }
+      .carousel-indicators li, .carousel-indicators li.active {
+        width: 11px;
+        height: 11px;
+        margin: 1px 5px;
+        border-radius: 50%;
+      }
+      .carousel-indicators li {	
+        background: #e2e2e2;
+        border: none;
+      }
+      .carousel-indicators li.active {		
+        background: #888;		
+      }
+      .container{
+        background-color: transparent;
+      }
+
+      .custom-card {
+      border: 1px solid #ddd;
+      transition: transform 0.2s ease-in-out;
+      position: relative;
+      overflow: hidden; /* Ensure the button doesn't overflow outside the card */
+    }
+
+    .custom-card:hover {
+      transform: scale(1.05);
+    }
+
+    .card-img-top {
+      max-height: 200px;
+      object-fit: cover;
+    }
+
+    .card-title {
+      text-align: center;
+      color: #fff;
+      font-family: 'Pacifico', cursive; /* Add a custom font */
+      font-size: 1.25rem; /* Increase the font size */
+      margin-bottom: 0.5rem; /* Adjust the margin */
+    }
+    .card{
+      background-color: transparent;
+      height: 37vh;
+    }
+
+    .package-btn {
+      position: absolute;
+      text-decoration: none;
+      background: transparent;
+      font-size: 13px;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      /* background-color: #f44336; Change the button color */
+      color: #fff; /* White text */
+      padding: 12px 34px;/* Padding for the button */
+      border: 1px solid #fff; /* Remove button border */
+      /*border-radius: 4px;  Optional: Add border-radius for a rounded look */
+      text-decoration: none; /* Remove underlines */
+      display: none;
+    }
+
+    .custom-card:hover .package-btn {
+      display: inline-block;
+      background: #f44336;
+      transition: 1s;
+    
+    }
+      </style>
+</head>
+<body>
+
+    <section class="header2">
+            
+        <nav>
+             <a href="index.html."><img src="../images/logo.png"></a>
+             <p style="color: #fff; 
+             font-weight: 600;
+              margin-right: 50px;
+              text-transform: uppercase;          
+              text-shadow: 2px 2px 5px #666;     
+              transform: rotateX(10deg);"
+              
+              >
+                  Humble-Uni Academy</p>
+                <!-- Hamburger menu button -->
+                <div class="menu-btn">
+                    <div class="btn-line"></div>
+                    <div class="btn-line"></div>
+                    <div class="btn-line"></div>
+               </div>  
+               <!-- Display the close button (the "X" icon) initially as hidden -->
+               <div class="close-btn">
+                    <div class="close-line"></div>
+                    <div class="close-line"></div>
+               </div> 
+               <div class="nav-links">
+                  <ul>
+                    <li><a href="../index.html"><i class="fas fa-home"></i>HOME</a></li>
+                    <li><a href="about-us.html"><i class="fas fa-info-circle"></i>ABOUT US</a></li>
+                    <li class="active"><a href="courses.html"><i class="fas fa-book"></i>COURSES</a></li>
+                    <li><a href="contact.html"><i class="fas fa-envelope"></i>CONTACT US</a></li>
+                    <li><a href="safeDriving.html"><i class="fas fa-shield"></i>SAFE DRIVING</a></li>
+                    <li><a href="FAQs.html" style="font-size: 15px;"><i class="fa fa-question-circle"></i>FAQs</a></li>
+                  </ul>
+             </div>
+        </nav>
+       
+
+
+   <section id="Courses" class="Courses-offer">
+    <div class="course-title"><h1>Courses We Offer</h1></div>
+    <p>There are a number of available courses in Humble-Uni.<br>
+       All these courses have a highly skilled instructors.<br>
+       Below is list of available courses.</p>
+      
+        <!--cards-->
+        <div class="container mt-5">
+          <div class="row">
+            <!-- Card 1 -->
+            <div class="col-md-4 mb-4">
+              <div class="card custom-card">
+                <img class="card-img-top" src="../images/learners.jfif" alt="Card image cap" height="400vh">
+                <div class="card-body">
+                  <h5 class="card-title">Learners</h5>
+                  <a href="#" id="myButton" class="btn btn-secondary package-btn">View Package</a>
+                </div>
+              </div>
+            </div>
+        
+            <!-- Card 2 -->
+            <div class="col-md-4 mb-4">
+              <div class="card custom-card">
+                <img class="card-img-top" src="../images/code10.jpg" alt="Card image cap" height="400vh">
+                <div class="card-body">
+                  <h5 class="card-title">Code 8 & Code 10</h5>
+                  <a href="#" id="myButton1" class="btn btn-secondary package-btn">View Package</a>
+                </div>
+              </div>
+            </div>
+        
+            <!-- Card 3 -->
+            <div class="col-md-4 mb-4">
+              <div class="card custom-card">
+                <img class="card-img-top" src="../images/code14.webp" alt="Card image cap" height="400vh">
+                <div class="card-body">
+                  <h5 class="card-title">Code 14</h5>
+                  <a href="#" id="myButton2" class="btn btn-secondary package-btn">View Package</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      
+        <section class="cta">
+            <h1>Enroll for our driving lessons.</h1>
+            <a href="contact.html" id="openPopupButton" class="hero-btn">CONTACT US</a>
+        </section>
+
+
+        <h2 class="test1">Testimonials</h2>
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+	<!-- Carousel indicators -->
+	<ol class="carousel-indicators">
+		<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+		<li data-target="#myCarousel" data-slide-to="1"></li>
+		<li data-target="#myCarousel" data-slide-to="2"></li>
+	</ol>   
+	<!-- Wrapper for carousel items -->
+	<div class="carousel-inner">		
+		<div class="carousel-item active">
+			<div class="img-box"><img src="../images/tes3.jfif" alt=""></div>
+			<p class="testimonial">I couldn't ask for driving a better driving school than Humble-uni driving academy, The instructors were so invested to my driving success.</p>
+			<p class="overview"><b>Relebohile Khamila</b></p>
+			<div class="star-rating">
+				<ul class="list-inline">
+					<li class="list-inline-item"><i class="fa fa-star"></i></li>
+					<li class="list-inline-item"><i class="fa fa-star"></i></li>
+					<li class="list-inline-item"><i class="fa fa-star"></i></li>
+					<li class="list-inline-item"><i class="fa fa-star"></i></li>
+					<li class="list-inline-item"><i class="fa fa-star-o"></i></li>
+				</ul>
+			</div>
+		</div>
+		<div class="carousel-item">
+			<div class="img-box"><img src="../images/test2.jpg" alt=""></div>
+			<p class="testimonial">I was a nervous driver but Humble-uni changed that. I am grateful for the skills and knowledge I gained here.</p>
+			<p class="overview"><b>Lerato Hlubi</b></p>
+			<div class="star-rating">
+				<ul class="list-inline">
+					<li class="list-inline-item"><i class="fa fa-star"></i></li>
+					<li class="list-inline-item"><i class="fa fa-star"></i></li>
+					<li class="list-inline-item"><i class="fa fa-star"></i></li>
+					<li class="list-inline-item"><i class="fa fa-star"></i></li>
+					<li class="list-inline-item"><i class="fa fa-star-o"></i></li>
+				</ul>
+			</div>
+		</div>
+		<div class="carousel-item">
+			<div class="img-box"><img src="../images/test3.jpg" alt=""></div>
+			<p class="testimonial">I can't thank humbleUni enough for helping me become a safe and skilled driver. Are you looking for a driving school? HumbleUni is the plug!!.</p>
+			<p class="overview"><b>Palesa Dlamini</b></p>
+			<div class="star-rating">
+				<ul class="list-inline">
+					<li class="list-inline-item"><i class="fa fa-star"></i></li>
+					<li class="list-inline-item"><i class="fa fa-star"></i></li>
+					<li class="list-inline-item"><i class="fa fa-star"></i></li>
+					<li class="list-inline-item"><i class="fa fa-star"></i></li>
+					<li class="list-inline-item"><i class="fa fa-star-half-o"></i></li>
+				</ul>
+			</div>
+		</div>		
+	</div>
+	<!-- Carousel controls -->
+	<a class="carousel-control-prev" href="#myCarousel" data-slide="prev">
+		<i class="fa fa-angle-left"></i>
+	</a>
+	<a class="carousel-control-next" href="#myCarousel" data-slide="next">
+		<i class="fa fa-angle-right"></i>
+	</a>
+</div>
+
+</section>
+<div id="progress">
+  <span id="progress-value">&#x1F815;</span>
+ </div>
+
+<!--bootstrap modals-->
+
+<div class="modal fade" id="myModal" >
+    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable" >
+      <div class="modal-content" >
+        <!-- Modal Header -->
+        <div class="modal-header">
+          <h5 class="modal-title" style="text-align: center;">Learners Package</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        
+        <!-- Modal body -->
+        <div class="modal-body">
+          
+            <table class="table table-bordered table-striped">
+              <tr>
+              <th style="text-align: center;">Half Package</th>
+              <th style="text-align: center;">Full Package</th>
+            </tr>
+            <tr>
+              <td>8 hour course</td>
+              <td>16 Hour course</td>
+            </tr>
+            <tr>
+              <td>Practise materials</td>
+              <td>Practise materials</td>
+            </tr>
+            <tr>
+              <td>2 simulated DLTC assessment</td>
+              <td>4 simulated DLTC assessment</td>
+            </tr>
+            <tr>
+              <td>8 hours of group class</td>
+              <td>8 hours of group class</td>
+            </tr>
+            <tr>
+              <td></td>
+              <td>4 hours of facilitated training</td>
+            </tr>
+            <tr>
+              <td></td>
+              <td>Instructor-led revisions</td>
+            </tr>
+            <tr>
+              <td></td>
+              <td>Quick bookings at the DLTC</td>
+            </tr>
+            </table>
+            
+        </div>
+        
+        <!-- Modal footer 
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        </div>
+        -->
+      </div>
+    </div>
+  </div>
+
+  <!--modal2-->
+  <div class="modal fade" id="myModal1">
+    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable" >
+      <div class="modal-content">
+        <!-- Modal Header -->
+        <div class="modal-header">
+          <h5 class="modal-title ">Code 8 & Code 10</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        
+        <!-- Modal body -->
+        <div class="modal-body">
+          <table class="table table-bordered table-striped">
+            <tr>
+            <th style="text-align: center;">Half Package</th>
+            <th style="text-align: center;">Full Package</th>
+          </tr>
+          <tr>
+            <td>10 driving lessons</td>
+            <td>20 driving lessons</td>
+          </tr>
+          <tr>
+            <td>First independent assessment</td>
+            <td>First independent assessment</td>
+          </tr>
+          <tr>
+            <td>Quick booking at the DLTC</td>
+            <td>Quick booking at the DLTC</td>
+          </tr>
+          <tr>
+            <td></td>
+            <td>Additional 4 hours of Code A, B lesson</td>
+          </tr>
+          <tr>
+            <td></td>
+            <td>Additional 2 hours of Code C1, EC lessons</td>
+          </tr>
+          <tr>
+            <td></td>
+            <td>Second independent assessment</td>
+          </tr>
+          <tr>
+            <td></td>
+            <td>Car provided for DLTC test</td>
+          </tr>
+          </table>
+        </div>
+        
+        <!-- Modal footer 
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        </div>
+        -->
+      </div>
+    </div>
+  </div>
+
+  <!--modal3-->
+  <div class="modal fade" id="myModal2">
+    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+      <div class="modal-content">
+        <!-- Modal Header -->
+        <div class="modal-header">
+          <h5 class="modal-title" style="text-align: center;">Code 14 Package</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        
+        <!-- Modal body -->
+        <div class="modal-body">
+          <table class="table table-bordered table-striped">
+            <tr>
+            <th style="text-align: center;">Half Package</th>
+            <th style="text-align: center;">Full Package</th>
+          </tr>
+          <tr>
+            <td>10 driving lessons</td>
+            <td>20 driving lessons</td>
+          </tr>
+          <tr>
+            <td>First independent assessment</td>
+            <td>First independent assessment</td>
+          </tr>
+          <tr>
+            <td>Quick booking at the DLTC</td>
+            <td>Quick booking at the DLTC</td>
+          </tr>
+          <tr>
+            <td></td>
+            <td>Additional 2 hours of Code A, B lesson</td>
+          </tr>
+          <tr>
+            <td></td>
+            <td>Additional 6 hours of Code C1, EC lessons</td>
+          </tr>
+          <tr>
+            <td></td>
+            <td>Second independent assessment</td>
+          </tr>
+          <tr>
+            <td></td>
+            <td>Car provided for DLTC test</td>
+          </tr>
+          </table>
+        </div>
+        
+        <!-- Modal footer 
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        </div>
+        -->
+      </div>
+    </div>
+  </div>
+
+   <!-- Our Chatbot-->
+   <div class="chat-bot-container" border-radius: 50px; padding: 20px;>      
+   </div>
+
+
+
+   <footer>
+    <div class="footer-head">
+      <h3>Humble-Uni Driving Academy</h3>
+    </div>
+    <div class="socials">
+      <ul>
+        <li><a href="https://www.facebook.com/www.humbleuniprojects.co.za/photos"><i class="fa-brands fa-facebook"></i></a></li>
+        <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+        <li><a href="#"><i class="fa-brands fa-youtube"></i></a></li>
+        <li><a href="#"><i class="fa-brands fa-linkedin"></i></a></li>
+        <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+      </ul>
+    </div>
+ 
+    <div class="footer-mid">
+     <p><i class="fas fa-map-marker-alt"> </i> Address: <a href="https://www.google.com/maps/dir/-25.9542039,28.1239714/-26.0185299,27.92889/@-25.9678372,27.8601792,11z/data=!4m4!4m3!1m1!4e1!1m0?entry=ttu">126-134 Angola Ave, Cosmo City, Roodepoort, 2188</a></p>
+      <p><i class="fas fa-phone"></i> Call us: 081 366 3052</p>
+     
+      <p>©Copyright 2023 Humble-Uni Driving Academy.</p>
+    </div>
+  </footer>
+
+  
+  <!-- Add the Bootstrap 5 JavaScript and Popper.js script links -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+
+  <script src="../js/script.js"></script>
+    
+</body>
+</html>

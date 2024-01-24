@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <link rel="stylesheet" href="../css/style.css"/>
+  <link rel="stylesheet" href="../Car-Game-main/style.css"/>
+  <link rel="icon" href="favicon.ico?" type="image/x-icon">
+  <link rel="icon" href="logo.png" type="image/x-icon">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital@0;1&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Merriweather:400,900,900i" rel="stylesheet">
+  <script id='pixel-script-poptin' src='https://cdn.popt.in/pixel.js?id=effc50d5a3619' async='true'></script>
+  <!-- Add the Bootstrap 5 CSS link -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css">
+  <title>Safe Driving</title>
+</head>
+<body>
+
+    <section class="header3">
+            
+    <nav>
+         <a href="index.html."><img src="../images/logo.png"></a>
+         <p style="color: #fff; 
+            font-weight: 600;
+            margin-right: 50px;
+            text-transform: uppercase;          
+            text-shadow: 2px 2px 5px #666;     
+            transform: rotateX(10deg);"> Humble-Uni Academy</p>
+            <!-- Hamburger menu button -->
+         <div class="menu-btn">
+          <div class="btn-line"></div>
+          <div class="btn-line"></div>
+          <div class="btn-line"></div>
+         </div>  
+         <!-- Display the close button (the "X" icon) initially as hidden -->
+          <div class="close-btn">
+            <div class="close-line"></div>
+            <div class="close-line"></div>
+          </div> 
+         <div class="nav-links">
+              <ul>                       
+                <li><a href="../index.html"><i class="fas fa-home"></i>HOME</a></li>
+                <li><a href="about-us.html"><i class="fas fa-info-circle"></i>ABOUT US</a></li>
+                <li><a href="courses.html"><i class="fas fa-book"></i>COURSES</a></li>
+                <li><a href="contact.html"><i class="fas fa-envelope"></i>CONTACT US</a></li>
+                <li class="active"><a href="safeDriving.html"><i class="fas fa-shield"></i>SAFE DRIVING</a></li>
+                <li><a href="FAQs.html" style="font-size: 15px;"><i class="fa fa-question-circle"></i>FAQs</a></li>
+ 
+              </ul>
+         </div>
+    </nav>
+    </section>
+     <!-- Safe Driving Section -->
+     <section id="SafeDriving">
+      <div class="container">
+        <h1>Safe Driving</h1>
+        <p class="subtext">
+          Ensuring Your Safety on the Road
+          <br><br>
+          At Humble-Uni Driving academy, we prioritize your safety on the road. Safe driving isn't just a responsibility; it's a commitment to safeguarding your life and the lives of those around you. Whether you're commuting to work, embarking on a road trip, or simply running errands, practicing safe driving habits is crucial. Our mission is to provide you with valuable resources and information to help you become a safer and more responsible driver. Explore our articles and resources to discover essential tips, techniques, and insights into defensive driving. Together, let's make our roads safer for everyone.
+        </p>
+        <div class="driving-links">
+          <div class="item">
+            <h3>This article is on safe driving tips by Easley Transportation</h3>
+            <iframe src="https://easleytrans.com/protect-yourself-with-these-5-defensive-driving-techniques/" title="Protecting Yourself Behind the Wheel"></iframe>
+          </div>
+          <div class="item">
+            <h3>Get There No Regrets and Road Safety by Arrive Alive</h3>
+            <iframe src="https://www.rtmc.co.za/images/rtmc/docs/newsletters/Newsletter_202001.pdf" title="Get There No Regrets and Road Safety"></iframe>
+          </div>
+        </div>
+      </div>
+
+      <!--driving school game
+      <div class="game-container">
+        <h1>Driving School Game</h1>
+        <div class="road">
+           The road elements go here
+            <div class="lane left-lane"></div>
+            <div class="lane center-lane">
+              <div class="car" id="player-car"></div>
+            </div>
+            <div class="lane right-lane"></div>
+            
+        </div>
+      
+      </div>
+       -->
+       <!--driving school game-->
+       <div class="game-container">
+        <h1>Driving Game</h1>
+        </div>
+       <div class="carGame">
+        <div class="score hide"></div>
+        <div class="startScreen">
+            <p> Click here to start<br />
+                Use arrow keys to move<br />
+                if you hit another car you will loss
+            </p>
+        </div>
+        <div class="gameArea"></div>
+    </div>
+    
+    </section>
+    <div id="progress">
+      <span id="progress-value">&#x1F815;</span>
+    </div>
+
+     <!-- Our Chatbot-->
+     <div class="chat-bot-container" border-radius: 50px; padding: 20px;>      
+     </div>
+
+
+  <footer>
+    <div class="footer-head">
+      <h3>Humble-Uni Driving Academy</h3>
+    </div>
+
+    <div class="socials">
+      <ul>
+        <li><a href="https://www.facebook.com/www.humbleuniprojects.co.za/photos"><i class="fa-brands fa-facebook"></i></a></li>
+        <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+        <li><a href="#"><i class="fa-brands fa-youtube"></i></a></li>
+        <li><a href="#"><i class="fa-brands fa-linkedin"></i></a></li>
+        <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+      </ul>
+    </div>
+
+    <div class="footer-mid">
+      <p><i class="fas fa-map-marker-alt"> </i> Address: <a href="https://www.google.com/maps/dir/-25.9542039,28.1239714/-26.0185299,27.92889/@-25.9678372,27.8601792,11z/data=!4m4!4m3!1m1!4e1!1m0?entry=ttu">126-134 Angola Ave, Cosmo City, Roodepoort, 2188</a></p>
+      <p><i class="fas fa-phone"></i> Call us: 081 366 3052</p>
+   
+      <p>©Copyright 2023 Humble-Uni Driving Academy.</p>
+    </div>
+</footer>
+<script src="../js/script.js"></script>
+<script src="../Car-Game-main/app.js"></script>
+</body>
+</html>
